@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    android:background="@color/Background">
+
+    <TextView
+        android:id="@+id/tasksText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="ADD TO-DO LIST"
+        android:textColor="@color/header"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/backtodo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:src="@drawable/baseline_keyboard_double_arrow_left_24"
+        android:backgroundTint="@color/Background"
+        android:contentDescription="Back to Homepage"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/tasktitle"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"
+        android:ems="20"
+        android:background="@drawable/custom_input"
+        android:hint="TITLE :"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/tasksubj"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true"
+        android:ems="20"
+        android:background="@drawable/custom_input"
+        android:hint="SUBJECT :"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/taskdate"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:ems="20"
+        android:background="@drawable/custom_input"
+        android:hint="DATE :"
+        android:inputType="date"
+        android:textSize="20sp"
+        android:padding="20dp" />
+
+
+    <EditText
+        android:id="@+id/tasktime"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"
+        android:ems="20"
+        android:background="@drawable/custom_input"
+        android:hint="TIME :"
+        android:inputType="time"
+        android:textSize="20sp"
+        android:padding="20dp" />
+
+
+</RelativeLayout>
